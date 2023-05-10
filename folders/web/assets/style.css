@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,6 +8,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+    /* font-family: 'Comfortaa', cursive; */
   background-color: #333;
   color: #222;
   overflow-x: hidden;
@@ -142,4 +145,130 @@ nav a:hover {
 .content p {
   color: #333;
   line-height: 1.5;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+.logo{
+  font-size: 58px;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin-bottom:40px;
+  position: relative;
+  font-weight: 500;
+  top: -50px;
+  color: #333333;
+}
+.subtitle{
+  font-size: 18px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  font-weight: 100;
+  margin:0px;
+  position: relative;
+  top: -50px;
+}
+
+.font2{
+  font-family: 'Comfortaa', cursive;
+}
+
+.hr{
+  border: 0px;
+  margin: 0px;
+  height: 1px;
+  background: #ccc;
+}
+.fontbig{
+  font-size: 38px;
+  text-align: center;
+}
+.contact_details{
+  display: block;
+  font-size: 22px;
+  background: #ccc;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+}
+.copyright{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  text-align: center;
+}
+
+.chip {
+  display: block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px 0px 0px 25px;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.contact_us{
+position: fixed;
+right: 0px;
 }

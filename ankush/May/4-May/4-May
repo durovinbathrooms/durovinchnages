@@ -20,3 +20,5 @@ rm -rf  /var/www/vhosts/durovinbathrooms.com/httpdocs/pub/pinterestdata/pinteres
   
 rm -rf /var/www/vhosts/durovinbathrooms.com/httpdocs/pub/pinterestdata/pinterestdata.csv;mysql magento<  /var/www/vhosts/durovinbathrooms.com/httpdocs/pub/pinterestdata/script.txt;
 
+
+/var/www/vhosts/pofai.co.uk/httpdocs/app/design/frontend/Codazon/fastest/fashion/Magento_Catalog/templates/product/view

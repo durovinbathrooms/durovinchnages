@@ -1,0 +1,43 @@
+
+
+/var/www/vhosts/pofai.co.uk/httpdocs/app/design/frontend/Codazon/fastest/fashion/Magento_Catalog/templates/product/view/addtocart.phtml
+/var/www/html/durovin/vendor/magento/module-catalog/Pricing/Render/FinalPriceBox.php
+
+/var/www/html/durovin/app/code/Etatvasoft/ProductLabel/view/frontend/templates/product/list.phtml
+<?php echo 'dfdf'; exit; ?>
+
+/var/www/html/durovin/app/code/Etatvasoft/ProductLabel/view/frontend/templates/product/list.phtml
+
+/var/www/html/durovin/vendor/magento/module-inventory-in-store-pickup-frontend/view/frontend/templates/success.phtml
+ 
+ /var/www/vhosts/pofai.co.uk/httpdocs/app/code/Etatvasoft/ProductLabel/view/frontend/templates/product
+ 
+ /var/www/html/durovin/app/design/frontend/Codazon/fastest/fashion/Magento_Catalog/templates/product/list/items.phtml
+ 
+ /var/www/html/durovin/app/design/frontend/Codazon/fastest/fashion/Magento_Catalog/templates/product/list/items.phtml
+ 
+ 
+      $('.newAddToCartRelated').each(function(index) {
+                $(this).on("click", function(e) {
+                    e.preventDefault();
+                    dataLayer.push({
+                        'event': 'add_to_cart',
+                        'currency': "GBP",
+                        'value': '' + $(this).attr('data-pr-price') + '',
+                        'items': [{
+                            'item_name': 'list-' + $(this).attr(
+                                'data-pr-name') + '',
+                            'price': '' + $(this).attr('data-pr-price') + '',
+                            'item_id': '' + $(this).attr('data-pr-sku') + '',
+                            'quantity': '1',
+                        }]
+
+                    });
+                    console.log('layer', $('#form-'+ $(this).attr('data-pr-sku') ));
+                    $('#form-'+ $(this).attr('data-pr-sku').submit();
+                    console.log('layer', dataLayer);
+                    return false;
+                });
+            })
+            
+            4000 0000 0000 0002
